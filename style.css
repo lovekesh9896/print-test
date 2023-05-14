@@ -1,0 +1,76 @@
+*{
+    box-sizing: content-box;
+}
+
+.clr-voilet{
+    color: #8D19E2;
+}
+
+.clr-grey{
+    color: #6F6F84; 
+}
+
+.bold{
+    font-weight: 600;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    /* padding: 40px 280px; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left{
+
+}
+
+header .left .company-name{
+    width: 250px;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+header .right .invoice{
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+header .right .invoice-id{
+    font-size: 12px;
+    text-align: right;
+    margin-top: 4px;
+}
+
+main{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .left{
+
+}
+
+main .key{
+    color: #222234;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+main .summary{
+    text-align: end;
+    width: 169px;
+}
+
+.details > div{
+    margin-top: 6px;
+}
+
+.summary > div{
+    margin-top: 6px;
+}
